@@ -1,5 +1,9 @@
 # Final-Project-Tableau
 
+## Important Note for Tableau Public Users:
+1. Please open "FAA_Public.twbx".  This is to be used with the subdirectory "FAA.twb Files" which contains the extracted/packaged data (.hyper file).  This file will enable Tableau Public users to see the Tableau workbook, sheets, dashboards, and story.
+2. The file "FAA.twb" is the same content as above, but for users of the Tableau Desktop Professional verison of Tableau.
+
 ## Project/Goals
 1. Derive insights from the cleaned dataset (available at: <a href="https://docs.google.com/spreadsheets/d/1V-tOmmtGtiY_3XMnYtVblDhlj_kzLBxa/edit?usp=sharing&ouid=108445376648788204707&rtpof=true&sd=true.">faa_data_subset.xlsx</a>) dervied from the FAA Wildlife Strike Database, which contains records of wildlife strikes reported by airlines, airports, pilots, and other sources.
 2. Explore the dataset using Tableau visualizations and analytical tools like forecasting and clustering, to find interesting patterns, trends, outliers, or anything remarkable from the data.
