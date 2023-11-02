@@ -3,6 +3,8 @@
 ## Important Note for Tableau Public Users:
 1. Please open "FAA_Public.twbx".  This is to be used with the subdirectory "FAA.twb Files" which contains the extracted/packaged data (.hyper file).  This file will enable Tableau Public users to see the Tableau workbook, sheets, dashboards, and story.
 2. The file "FAA.twb" is the same content as above, but for users of the Tableau Desktop Professional verison of Tableau.
+3. The dashboard is also shared on Tableau Public server, and can be viewed by the general public, at:
+https://public.tableau.com/app/profile/julie.leung/viz/FAA_Public/FAAWildlifeStrikesPresentation
 
 ## Project/Goals
 1. Derive insights from the cleaned dataset (available at: <a href="https://docs.google.com/spreadsheets/d/1V-tOmmtGtiY_3XMnYtVblDhlj_kzLBxa/edit?usp=sharing&ouid=108445376648788204707&rtpof=true&sd=true.">faa_data_subset.xlsx</a>) dervied from the FAA Wildlife Strike Database, which contains records of wildlife strikes reported by airlines, airports, pilots, and other sources.
@@ -38,17 +40,30 @@
 - Built a lot of interactivity into each visualization to provide maximum value in limited screen real-estate and with limited number of pages available for vieweing (4 sets of "slides" or "Story Points")
 ### Built a Dashboard Page with Salient Points/Text to Capture Significant Findings
 - Built a single Dashboard or Story Point/"slide" that summarizes salient points that a reader who does not have access to the live presentation, can consider when interacting with the visualizations
+    - Later split this into 3 pages to space out the large number of words and busy Story Point
 - Each of these points are also significant findings that I saw through my visualizations/exploration and additional research.
-### Build a singular Tableau Story with 5 Dashboards
+### Build a singular Tableau Story with 7 Dashboards
 - Each Dashboard functions as a singular Story Point, or "slide" in my "Tableau Story functioning like a Powerpoint Deck".
     - The first 4 Dashboards have Visualizations and interactivity and legends on each
-    - The last (5th) Dashboard has words only:  6 boxes with salient points and findings, which should also inform the end-user's interaction with the interactive features on each Visualization.
-        - This Story Point/"slide" is "wordy" and "busy", but was created to impart information and context to end-users who were not present at the presentation and only have access to the Tableau Story on Tableau Public Server.
+    - The last set of Dashboards (5th to 7th) have words only:  7 boxes with salient points and findings, which should also inform the end-user's interaction with the interactive features on each Visualization.
+        - This Story Point/"slide" began as 1 singular Dashboard which was wordy" and "busy", but was later split into 3 slides to space out the words.
+        - The 3 slides of words were created to impart information and context to end-users who were not present at the presentation and only have access to the Tableau Story on Tableau Public Server.
+
+### Images of my Dashboards
+The dashboards are highly interactive.  Please feel free to interact with them by downloading my FAA.twb (Tableau Desktop Professional) or FAA_Public.twbx (Tableau Desktop Public) files, or <a href="https://public.tableau.com/app/profile/julie.leung/viz/FAA_Public/FAAWildlifeStrikesPresentation">viewing my visualization on the Tableau Public Server</a>.
+
+<img src='images/FAA_Dashboard_1.png'></img>
+<img src='images/FAA_Dashboard_2.png'></img>
+<img src='images/FAA_Dashboard_2_1.png'></img>
+<img src='images/FAA_Dashboard_2_2.png'></img>
+<img src='images/FAA_Dashboard_3.png'></img>
+<img src='images/FAA_Dashboard_4.png'></img>
+<img src='images/FAA_Dashboard_5.png'></img>
 
 ## Results
 - I chose **Option 2** and to work with the FAA Wildlife Strike cleaned data.
-- See above under "Process" for a detailed description of all the Visualizations I created, which ones became part of my official Dashboards, and the rationale fo why.
-- See the last "Story Point" or "Slide" in the Tableau Story to see all the salient points, trends, significant findings, and interesting patterns, I discovered.
+- See above under "Process" for a detailed description of all the Visualizations I created, which ones became part of my official Dashboards, and the rationale for why.
+- See the last 3 "Story Points" or "Slides" in the Tableau Story to see all the salient points, trends, significant findings, and interesting patterns, I discovered.
 
 #### Data Questions Posed:
 The data questions I posed in developing my Dashboards were:
